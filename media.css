@@ -1,0 +1,66 @@
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .hero {
+        height: 80vh;
+        padding-left: 15%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+    }
+
+    .promise-grid {
+        flex-direction: column;
+    }
+
+    .product-grid {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .right-link {
+        font-size: 0.9rem;
+    }
+
+    .header-icons {
+        gap: 10px;
+    }
+
+    .header-icons a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 6px 15px;
+    }
+}

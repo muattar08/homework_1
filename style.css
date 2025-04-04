@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background: #F2994A;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-icons a {
+    text-decoration: none;
+}
+
+.cart-icon img,
+.close-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.right-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #08263F;
+    padding: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.hero {
+    background: url('images/background.png') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;
+    color: #fff;
+    position: relative;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.intro {
+    background: #08263F;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.intro h2 {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.promises {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.promise-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.promise {
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.promise img {
+    width: 25%;
+    height: 25%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product {
+    width: 200px;  /* Уменьшение ширины карточек */
+    background: #fff;
+    padding: 15px;  /* Уменьшение отступов внутри карточки */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product img {
+    width: 50%;  /* Уменьшаем изображения */
+    height: 50%; /* Высота будет пропорциональна ширине */
+    margin-bottom: 10px;
+    object-fit: contain; /* Изображения не искажаются */
+}
